@@ -28,7 +28,7 @@ public class App {
                 + "  Ingrese la funcion:"
                 + "  <input type=\"text\" name=\"data\" size= 50 value=\"cos\n\">"
                 + "  <br><br>"
-                + "  Ingrese la funcion:"
+                + "  Ingrese el valor:"
                 + "  <input type=\"text\" name=\"value\" size= 50 value=\"45\n\">"
                 + "  <br><br>"
                 + "  <input type=\"submit\" value=\"Evaluar\">"
