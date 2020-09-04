@@ -14,12 +14,7 @@ git clone https://https://github.com/mariahv9/Parcial1AREP
 ```
 cd Parcial1AREP
 mvn package 
-java -cp
 ```
-
-Abrir el siguiente para ver el despliegue:
-
-* [HerokuApp]()
 
 ## Construido con 
 
