@@ -6,7 +6,15 @@ import spark.Request;
 import spark.Response;
 import static spark.Spark.*;
 
+/**
+ * Class that Connect with client
+ * @author Maria Fernanda Hernandez Vargas
+ */
 public class App {
+    /**
+     * Method that makes the url's connection
+     * @param args
+     */
     public static void main (String[] args) {
         port (getPort());
         get("/inputdata", (req, res) -> inputDataPage(req, res));
@@ -16,6 +24,12 @@ public class App {
         });
     }
 
+    /**
+     * Method that takes data
+     * @param req
+     * @param res
+     * @return
+     */
     public static String inputDataPage (Request req, Response res) {
         String pageContent
                 = "<!DOCTYPE html>"
